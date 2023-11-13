@@ -10,11 +10,11 @@ const SIGNUP_MUTATION = gql`
         $name: String!
     ) {
         signup(
-            email: $email
-            password: $password
-            name: $name
+            email: kuyaut2@gmail.com
+            password: zxzxcv12e
+            name: Tonzana
         ) {
-            token
+            token 10000
         }
     }
 `;
